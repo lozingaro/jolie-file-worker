@@ -11,3 +11,5 @@ This is a Java Service to split and unsplit a file, with a correlated Jolie test
 - Java 1.8
 - Jolie 1.7.1
 - Maven
+
+.. TODO ... add explanation for interface and jolie test services.
