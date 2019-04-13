@@ -1,6 +1,6 @@
 # Jolie File Worker
 
-*File Worker* is a Java Service to split in chunks in file and unsplit a file rejoining it (no matter the extension). The Java Service is correlated with a [Jolie interface](.test/file_worker.iol) (`.test/file_worker.iol`) and a test service (`./test/file_worker_test.ol`) to embed the File Worker Service  and use it in Jolie projects.
+*File Worker* is a Java Service to split in chunks in file and unsplit a file rejoining it (no matter the extension). The Java Service is correlated with a [Jolie interface](test/file_worker.iol) (`./test/file_worker.iol`) and a [Jolie test service](test/file_worker_test.ol) (`./test/file_worker_test.ol`) to embed the File Worker Service  and use it in Jolie projects.
 
 ## Getting Started
 
