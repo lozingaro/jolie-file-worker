@@ -4,8 +4,9 @@
 
 ## Getting Started
 
+A very few things to get started with the project, depending if you want to use the Jolie service (main reason why to be here), or, alternatively, use the Java Service for other scopes. In both cases I suggest to follow the **Running the tool** section below.
 
-### Prerequisities
+### Prerequisities
 
 - Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
 - Jolie 1.7.1 (C) 2006-2019 the Jolie team
