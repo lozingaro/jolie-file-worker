@@ -14,10 +14,10 @@ A very few things to get started with the project, depending if you want to use 
 
 ## Running the tool
 
-0. Please follow the instructions at this page [to build properly a Java Service for Jolie](https://jolielang.gitbook.io/docs/technology-integration/javaservices)
-1. In case you want to modify the Java Service, open it in your favourite IDE and work on it as a Maven project.
-2. Use the `jar` file produced from the *build* Maven process and place it in the `test/lib` folder.
-3. Run `jolie file_worker_test.ol` into a shell to test it.
+1. Follow the instructions at this page [to build properly a Java Service for Jolie](https://jolielang.gitbook.io/docs/technology-integration/javaservices).
+2. In case you want to modify the Java Service, open it in your favourite IDE (e.g. NetBeans) and work on it as a Maven project.
+3. Use the `jar` file produced from the *build* Maven process and place it in the `test/lib` folder.
+4. Run `jolie file_worker_test.ol` into a shell to test it.
 
 ## Built With
 
