@@ -36,11 +36,4 @@ and the process for submitting pull requests to us.
 
 ## License
 
-This project is licensed under the GNU v.3 License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgements
-
-The students, members of the group that developed the first tool version:
-* [vsalvo](https://github.com/vsalvo);
-* [AlessandroCordella](https://github.com/AlessandroCordella);
-* [lateganto](https://github.com/lateganto).
+This project is licensed under the GNU v.3 License - see the [LICENSE](LICENSE) file for details.
