@@ -1,11 +1,12 @@
 # Jolie File Worker
 
-*File Worker* is a Java Service to split in chunks in file and unsplit a file rejoining it (no matter the extension). The Java Service is correlated with a [Jolie interface](.test/file_worker.iol) (`.test/file_worker.iol`) and a test service (`./test/file_worker_test.ol`) to embed the File Worker Service  and use it in Jolie projects.
+*File Worker* is a Java Service to split in chunks in file and unsplit a file rejoining it (no matter the extension). The Java Service is correlated with a [Jolie interface](test/file_worker.iol) (`./test/file_worker.iol`) and a [Jolie test service](test/file_worker_test.ol) (`./test/file_worker_test.ol`) to embed the File Worker Service  and use it in Jolie projects.
 
 ## Getting Started
 
+A very few things to get started with the project, depending if you want to use the Jolie service (main reason why to be here), or, alternatively, use the Java Service for other scopes. In both cases I suggest to follow the **Running the tool** section below.
 
-### Prerequisities
+### Prerequisities
 
 - Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
 - Jolie 1.7.1 (C) 2006-2019 the Jolie team
@@ -13,10 +14,10 @@
 
 ## Running the tool
 
-0. Please follow the instructions at this page [to build properly a Java Service for Jolie](https://jolielang.gitbook.io/docs/technology-integration/javaservices)
-1. In case you want to modify the Java Service, open it in your favourite IDE and work on it as a Maven project.
-2. Use the `jar` file produced from the *build* Maven process and place it in the `test/lib` folder.
-3. Run `jolie file_worker_test.ol` into a shell to test it.
+1. Follow the instructions at this page [to build properly a Java Service for Jolie](https://jolielang.gitbook.io/docs/technology-integration/javaservices).
+2. In case you want to modify the Java Service, open it in your favourite IDE (e.g. NetBeans) and work on it as a Maven project.
+3. Use the `jar` file produced from the *build* Maven process and place it in the `test/lib` folder.
+4. Run `jolie file_worker_test.ol` into a shell to test it.
 
 ## Built With
 
@@ -35,11 +36,4 @@ and the process for submitting pull requests to us.
 
 ## License
 
-This project is licensed under the GNU v.3 License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgements
-
-The students, members of the group that developed the first tool version:
-* [vsalvo](https://github.com/vsalvo);
-* [AlessandroCordella](https://github.com/AlessandroCordella);
-* [lateganto](https://github.com/lateganto).
+This project is licensed under the GNU v.3 License - see the [LICENSE](LICENSE) file for details.
